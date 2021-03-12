@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Contacts</title>
+  </head>
+  <body>
+    <nav id="header">
+      <div class="container">
+        <div class="main-header">
+          <div class="logo">
+            <h1>Alphy</h1>
+          </div>
+          <div class="navbar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <div class="contacts">
+      <div class="container card-contact">
+        <form
+          name="contact"
+          method="POST"
+          netlify-honeypot="bot-field"
+          data-netlify="true"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <p class="hidden">
+            <label
+              >Don’t fill this out if you’re human: <input name="bot-field"
+            /></label>
+          </p>
+          <div class="main-contact">
+            <h2>Want to contact Me?</h2>
+            <input class="text" type="text" placeholder="Name" />
+            <input class="text" type="email" placeholder="Email" />
+            <textarea
+              name="message"
+              id="messagebar"
+              cols="0"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <input class="submit" type="submit" />
+          </div>
+        </form>
+        <div class="socialmedia">
+          <a
+            href="https://www.facebook.com/alphyjaydpaulin"
+            class="fa fa-facebook"
+            target="_blank"
+          ></a>
+          <a
+            href="https://twitter.com/alphypj1?fbclid=IwAR08iQ9SRgy5xykaltEO5RzbVRVPIQxJLz51Tr7OAHonpN-4TkKwiF4OfHE"
+            class="fa fa-twitter"
+            target="_blank"
+          ></a>
+          <a
+            href="https://www.instagram.com/alphypj/?fbclid=IwAR2WsLe1nws1xXrTl_HvG-nkjmVkcrjXR1BDLjX8rpQm-hK8BMilsZCqMcY"
+            class="fa fa-instagram"
+            target="_blank"
+          ></a>
+          <a
+            href="alphy.paulin22@gmail.com"
+            class="fa fa-google"
+            target="_blank"
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-info">
+            <h2>copyright &copy; 2021</h2>
+            <p>created By Alphy Jay Paulin</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
