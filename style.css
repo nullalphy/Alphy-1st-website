@@ -409,3 +409,121 @@ img:hover {
 .socialmedia a:hover:nth-child(4) {
   color: rgb(255, 0, 212);
 }
+@media (max-width: 320px) {
+  .main-header {
+    flex-direction: column;
+  }
+  .navbar a {
+    font-size: 15px;
+  }
+  .introduction h2 {
+    font-size: 6vh;
+  }
+  .card h1 {
+    font-size: 5vh;
+  }
+  .card .level {
+    font-size: 15px;
+    margin: 10px 5px;
+    justify-content: center;
+  }
+  .card .level h2 {
+    font-size: 10px;
+    margin: 10px 2px;
+    padding: 0px 2px;
+  }
+  .card .level h2:nth-child(5),
+  h2:nth-child(4),
+  h2:nth-child(3) {
+    display: none;
+  }
+  .lang-per {
+    margin: 10px 5px;
+  }
+  .lang-per .language {
+    margin: 10px 5px;
+  }
+  .lang-per .language h2 {
+    margin: 10px 5px;
+    padding: 5px;
+  }
+  .percentage div {
+    height: 20px;
+  }
+  .percentage div::after {
+    height: 10px;
+    margin-top: 5px;
+  }
+  .footer-info {
+    margin: 10px;
+  }
+  .footer-info p {
+    font-size: 10px;
+  }
+  .icons {
+    margin: 10px;
+  }
+
+  #showcase2 {
+    height: 800px;
+  }
+  .introduction2 {
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+  .message {
+    padding: 10px;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+  .message h2 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+
+  .card-contact {
+    flex-direction: column;
+  }
+
+  .main-contact {
+    width: 95%;
+    height: 400px;
+    margin-bottom: 50px;
+  }
+  .socialmedia a {
+    font-size: 40px;
+    margin: 10px 10px;
+  }
+}
+@media (max-width: 768px) {
+  .level {
+    margin: 10px 100px;
+  }
+  .level h2 {
+    font-size: 20px;
+    margin: 10px 10px;
+  }
+  .footer-info {
+    margin-left: 20px;
+  }
+
+  #showcase2 {
+    height: 600px;
+  }
+  .message {
+    width: 150%;
+    height: 420px;
+  }
+  .socialmedia {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+  }
+  .card-contact {
+    align-items: center;
+  }
+  .main-contact {
+    margin-left: 30px;
+    margin-top: 80px;
+  }
+}
